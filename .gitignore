@@ -1,0 +1,13 @@
+*.Rproj.user
+*.Rhistory
+*Rproj
+code_intl_climate/.RData
+code_intl_climate/after_paper_produced.RData
+data/all.dta
+data/alla.dta
+*.Ruserdata
+*.dta
+empty_folders/*
+.Rproj.user
+*.RDataTmp
+*.zip

@@ -1,0 +1,100 @@
+\begin{tikzpicture}[node distance=0cm]
+%2.5
+    \node (views) at (-11,4.5) [rectangle, draw, align=center, anchor=north west,minimum width=20.8cm, minimum height=1.5cm] {
+     \begin{varwidth}{\linewidth}
+         \centering  Views on climate policies:
+    \begin{adjustwidth}{-2.5cm}{-2.5cm}
+    \begin{multicols}{2}
+    \begin{itemize}[topsep=0pt]
+    \item[] \hspace{2cm}Main Policies Studied
+    \item \textbf{Taxation} (carbon tax with cash transfers)
+    \item \textbf{Regulation} (ban on combustion-engine cars)
+    \item \textbf{Investments} (green infrastructure program)
+    \end{itemize}
+    \columnbreak
+    \begin{itemize}[topsep=0pt]
+    \item[] \hspace{2cm}Other Policies
+    \item \textbf{Energy policies} (subsidies to low-carbon\\ technologies,…)
+    \item \textbf{Food policies} (ban of intensive cattle farming,…)
+    \item …
+    \end{itemize}
+    \end{multicols}
+    \end{adjustwidth}
+        \end{varwidth}
+    };
+
+    \node (A) at (-13,-2) [rectangle, draw, align=center,minimum width=6.5cm, minimum height=1.5cm, anchor=north west] {\textbf{Self-interest}\\(perceived and objective)};
+    
+    \node (C) at (-4.9,-2) [rectangle, draw, align=center,minimum width=16.7cm, minimum height=1.5cm,anchor=north west] {Broader \textbf{economic}\\ \& \textbf{social} concerns};
+
+    \node (I) at (-13,-4.6) [rectangle, draw, align=center,minimum width=6.5cm, minimum height=3.5cm,anchor=north west] {
+    \begin{varwidth}{\linewidth}
+        \begin{itemize}
+            \item[]
+            \item \textbf{Lifestyle} impacts
+            \item \textbf{Energy usage}
+            \item \textbf{Personal characteristics}
+        \end{itemize}\end{varwidth}
+    
+    };
+    \node [rectangle, draw, align=center, minimum width=1cm, minimum height=.6cm, anchor=north west] at (-10.25,-4.6) {\textbf{I}};
+    
+    \node [single arrow, draw, minimum width=1cm, minimum height=1cm, single arrow head extend=.2cm, anchor=north west, rotate=90] (arrow) at (-10,-4.35) {};
+
+    % \node (II) at (-9.9,-4.6) [rectangle, draw, align=center,minimum width=3.9cm, minimum height=2cm,anchor=north west] {\\ \\ Exposure through\\\textbf{energy usage}};
+    % \node [rectangle, draw, align=center, minimum width=1cm, minimum height=.6cm, anchor=north west] at (-8.45,-4.6) {\textbf{II}};
+    % \node [single arrow, draw, minimum width=1cm, minimum height=1cm, single arrow head extend=.2cm, anchor=north west, rotate=90] (arrow) at (-8.2,-4.35) {};
+
+    
+    \node (II) at (-4.9,-4.6) [rectangle, draw,align=center,minimum width=3.1cm, minimum height=5.4cm,anchor=north west] {Perceived\\\textbf{effectiveness}\\of climate\\ policy};
+    \node [rectangle, draw, align=center, minimum width=1cm, minimum height=.6cm, anchor=north west] at (-3.85,-4.6) {\textbf{II}};
+    \node [single arrow, draw, minimum width=1cm, minimum height=1cm, single arrow head extend=.2cm, anchor=north west, rotate=90] (arrow) at (-3.6,-4.35) {};
+    
+    \node (III) at (-1.5,-4.6) [rectangle, draw, align=center,minimum width=3.1cm, minimum height=5.4cm,anchor=north west] {\small Perceived\\\textbf{distributional}\\\textbf{impacts}\\of climate \\policy};
+    \node [rectangle, draw, align=center, minimum width=1cm, minimum height=.6cm, anchor=north west] at (-.45,-4.6) {\textbf{III}};
+    \node [single arrow, draw, minimum width=1cm, minimum height=1cm, single arrow head extend=.2cm, anchor=north west, rotate=90] (arrow) at (-.2,-4.35) {};
+    
+    \node (IV) at (1.9,-4.6) [rectangle, draw, align=center,minimum width=3.1cm, minimum height=5.4cm,anchor=north west] {\small Perceived\\ \textbf{effects on}\\ \textbf{the economy}};
+    \node [rectangle, draw, align=center, minimum width=1cm, minimum height=.6cm, anchor=north west] at (2.95,-4.6) {\textbf{IV}};
+    \node [single arrow, draw, minimum width=1cm, minimum height=1cm, single arrow head extend=.2cm, anchor=north west, rotate=90] (arrow) at (3.2,-4.35) {};
+
+    \node (V) at (5.3,-4.6) [rectangle, draw, align=center,minimum width=3.1cm, minimum height=5.4cm,anchor=north west] {\small \textbf{Knowledge}\\about \\climate change};
+    \node [rectangle, draw, align=center, minimum width=1cm, minimum height=.6cm, anchor=north west] at (6.35,-4.6) {\textbf{V}};
+    \node [single arrow, draw, minimum width=1cm, minimum height=1cm, single arrow head extend=.2cm, anchor=north west, rotate=90] (arrow) at (6.6,-4.35) {};
+
+    \node (VI) at (8.7,-4.6) [rectangle, draw, align=center,minimum width=3.1cm, minimum height=5.4cm,anchor=north west] {\small Concerns\\about \\\textbf{climate}\\\textbf{change}};
+    \node [rectangle, draw, align=center, minimum width=1cm, minimum height=.6cm, anchor=north west] at (9.75,-4.6) {\textbf{VI}};
+    \node [single arrow, draw, minimum width=1cm, minimum height=1cm, single arrow head extend=.2cm, anchor=north west, rotate=90] (arrow) at (10,-4.35) {};
+
+
+    % \node (exposure) at (-3.5,-7.5) [rectangle, draw,minimum width=5cm, minimum height=3cm,anchor=north ] {
+    %     \begin{varwidth}{\linewidth}
+    %     Exposure through:
+    %     \begin{itemize}
+    %         \item Local labor market
+    %         \item Human capital\\ (education)
+    %     \end{itemize}\end{varwidth}
+    % };
+
+    % \node (consumer) at (-11.5,-7.5) [rectangle, draw,minimum width=5cm, minimum height=3cm,anchor=north west] {
+    %     \begin{varwidth}{\linewidth}
+    %     \begin{itemize}
+    %         \item Impact on \\\textbf{consumption \\habits}
+    %         \item Impact on \textbf{lifestyle}
+    %      \end{itemize}\end{varwidth}
+    % };
+
+% \node [single arrow, draw, minimum width=1cm, minimum height=1cm, single arrow head extend=.2cm, anchor=north west, rotate=90] (arrow) at (-9.2,-7.25) {};
+% \node [single arrow, draw, minimum width=1cm, minimum height=1cm, single arrow head extend=.2cm, anchor=north west, rotate=90] (arrow) at (-3.7,-7.25) {};
+
+\node [anchor=center] at (-9.7,-1.4) {\textbf{A}};
+\node [single arrow, draw, minimum width=1.4cm, minimum height=1cm, single arrow head extend=.2cm, anchor=north west, rotate=90] (arrow) at (-10,-1.8) {};
+
+\node [anchor=center] at (-5.8,-2.8) {\textbf{B}};
+\node [single arrow, draw, minimum width=1.4cm, minimum height=1cm, single arrow head extend=.2cm, anchor=north west] (arrow) at (-6.2,-2.5) {};
+
+\node [anchor=center] at (3.25,-1.4) {\textbf{C}};
+\node [single arrow, draw, minimum width=1.4cm, minimum height=1cm, single arrow head extend=.2cm, anchor=north west, rotate=90] (arrow) at (2.95,-1.8) {};
+
+
+\end{tikzpicture}

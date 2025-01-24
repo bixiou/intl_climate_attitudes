@@ -1,0 +1,110 @@
+Variable,Variable Stata,Label,Levels
+progress,progress,progress: Progress,[string variable]
+gender,gender,gender: What is your gender?,Female / Male / Other
+age,age,age: How old are you?,18-24 / 25-34 / 35-49 / 50-64 / 65+ / Below 18
+urbanity,urbanity,"urbanity: What type of agglomeration do you live in? I live in: (Beware, the bins are not defined the same way in each country: e.g. for DK, 5/20/50/250/3M are replaced by 1/10/20/100/1.2M)",Rural: 0 / 5-20k: 1 / 20-50k: 2 / 50-250k: 3 / 250k-3M: 4 / >3M: 5
+income,income,income: What was the annual income of your household in 2019 (before withholding tax)?,Q1: 1 / Q2: 2 / Q3: 3 / Q4: 4
+frequency_beef,frequency_beef,frequency_beef: How often do you eat beef?,Never: -1 / Rarely: 0 / Weekly: 1 / Daily: 2
+availability_transport,availability_transport,availability_transport: How do you rate the availability (ease of access and frequency) of public transportation where you live?,Very poor: -2 / Poor: -1 / PNR: -0.1 / Fair: 0 / Good: 1 / Excellent: 2
+net_zero_feasible,net_zero_feasible,net_zero_feasible: To what extent do you think that it is technically feasible to stop greenhouse gas emissions by the end of the century while sustaining satisfactory standards of living in Australia?,Not at all: -2 / A little: -1 / PNR: -0.1 / Moderately: 0 / A lot: 1 / A great deal: 2
+willing_limit_flying,willing_limit_flying,"willing_limit_flying: Here are possible behaviors that experts say would help reduce greenhouse gas emissions.
+ 
+
+To what extent would you be willing to adopt the following behaviors? - Limit flying",Not at all: -2 / A little: -1 / PNR: -0.1 / Moderately: 0 / A lot: 1 / A great deal: 2
+willing_limit_driving,willing_limit_driving,"willing_limit_driving: Here are possible behaviors that experts say would help reduce greenhouse gas emissions.
+ 
+
+To what extent would you be willing to adopt the following behaviors? - Limit driving",Not at all: -2 / A little: -1 / PNR: -0.1 / Moderately: 0 / A lot: 1 / A great deal: 2
+willing_electric_car,willing_electric_car,"willing_electric_car: Here are possible behaviors that experts say would help reduce greenhouse gas emissions.
+ 
+
+To what extent would you be willing to adopt the following behaviors? - Have an electric vehicle",Not at all: -2 / A little: -1 / PNR: -0.1 / Moderately: 0 / A lot: 1 / A great deal: 2
+willing_limit_beef,willing_limit_beef,"willing_limit_beef: Here are possible behaviors that experts say would help reduce greenhouse gas emissions.
+ 
+
+To what extent would you be willing to adopt the following behaviors? - Limit beef consumption",Not at all: -2 / A little: -1 / PNR: -0.1 / Moderately: 0 / A lot: 1 / A great deal: 2
+willing_limit_heating,willing_limit_heating,"willing_limit_heating: Here are possible behaviors that experts say would help reduce greenhouse gas emissions.
+ 
+
+To what extent would you be willing to adopt the following behaviors? - Limit heating or cooling your home",Not at all: -2 / A little: -1 / PNR: -0.1 / Moderately: 0 / A lot: 1 / A great deal: 2
+standard_fair,standard_fair,"standard_fair: Do you agree or disagree with the following statement: ""A ban on combustion-engine cars is fair""?",Strongly disagree: -2 / Somewhat disagree: -1 / PNR: -0.1 / Neither agree or disagree: 0 / Somewhat agree: 1 / Strongly agree: 2
+standard_support,standard_support,standard_support: Do you support or oppose a ban on combustion-engine cars?,Strongly oppose: -2 / Somewhat oppose: -1 / PNR: -0.1 / Indifferent: 0 / Somewhat support: 1 / Strongly support: 2
+standard_public_transport_support,standard_public_transport_s_16,standard_public_transport_support: Do you support or oppose a ban on combustion-engine cars where alternatives such as public transports are made available to people?,Strongly oppose: -2 / Somewhat oppose: -1 / PNR: -0.1 / Indifferent: 0 / Somewhat support: 1 / Strongly support: 2
+investments_fair,investments_fair,"investments_fair: Do you agree or disagree with the following statement: ""A green infrastructure program is fair.""",Strongly disagree: -2 / Somewhat disagree: -1 / PNR: -0.1 / Neither agree or disagree: 0 / Somewhat agree: 1 / Strongly agree: 2
+investments_support,investments_support,investments_support: Do you support or oppose a green infrastructure program?,Strongly oppose: -2 / Somewhat oppose: -1 / PNR: -0.1 / Indifferent: 0 / Somewhat support: 1 / Strongly support: 2
+tax_transfers_fair,tax_transfers_fair,"tax_transfers_fair: Do you agree or disagree with the following statement: ""A carbon tax with cash transfers is fair""?",Strongly disagree: -2 / Somewhat disagree: -1 / PNR: -0.1 / Neither agree or disagree: 0 / Somewhat agree: 1 / Strongly agree: 2
+tax_transfers_support,tax_transfers_support,tax_transfers_support: Do you support or oppose a carbon tax with cash transfers?,Strongly oppose: -2 / Somewhat oppose: -1 / PNR: -0.1 / Indifferent: 0 / Somewhat support: 1 / Strongly support: 2
+attention_test,attention_test,"attention_test: To show that you are attentive, please select ""a little"" in the following list:",A great deal / A little / A lot / Moderately / Not at all
+policy_tax_flying,policy_tax_flying,policy_tax_flying: Do you support or oppose the following climate policies? - A tax on flying (that increases ticket prices by 20%),Strongly oppose: -2 / Somewhat oppose: -1 / PNR: -0.1 / Indifferent: 0 / Somewhat support: 1 / Strongly support: 2
+policy_tax_fuels,policy_tax_fuels,policy_tax_fuels: Do you support or oppose the following climate policies? - A national tax on fossil fuels (increasing gasoline prices by 15 cents per litre),Strongly oppose: -2 / Somewhat oppose: -1 / PNR: -0.1 / Indifferent: 0 / Somewhat support: 1 / Strongly support: 2
+policy_ban_city_centers,policy_ban_city_centers,"policy_ban_city_centers: Do you support or oppose the following climate policies? - A ban of polluting vehicles in dense areas, like city centers",Strongly oppose: -2 / Somewhat oppose: -1 / PNR: -0.1 / Indifferent: 0 / Somewhat support: 1 / Strongly support: 2
+policy_subsidies,policy_subsidies,"policy_subsidies: Do you support or oppose the following climate policies? - Subsidies for low-carbon technologies (renewable energy, capture and storage of carbon...)",Strongly oppose: -2 / Somewhat oppose: -1 / PNR: -0.1 / Indifferent: 0 / Somewhat support: 1 / Strongly support: 2
+can_trust_govt,can_trust_govt,"can_trust_govt: Do you agree or disagree with the following statement: ""Over the last decade, the Australian government could generally be trusted to do what is right.""",Strongly disagree: -2 / Somewhat disagree: -1 / PNR: -0.1 / Neither agree or disagree: 0 / Somewhat agree: 1 / Strongly agree: 2
+petition,petition,"petition: Finally, are you willing to sign a petition to ""stand up for real climate action""?
+
+As soon as the survey is complete, we will send the results to the Prime minister's office, informing him what share of people who took this survey were willing to support the following petition. 
+""I agree that immediate action on climate change is critical. Now is the time to dedicate ourselves to a low-carbon future and prevent lasting damage to all living things. Science shows us we cannot afford to wait to cut harmful carbon emissions. I'm adding my voice to the call to world leaders in Australia and beyond -- to act so we do not lose ground in combating climate change.""
+
+Do you support this petition (you will NOT be asked to sign, only your answer here is required and remains anonymous)?",PNR: -0.1 / No: 0 / Yes: 1
+finished,finished,finished: Finished,0 / 1 / False
+excluded,excluded,excluded: Q_TerminateFlag,QuotaMet / Screened
+duration,duration,duration: Q_TotalDuration,min: 0.033 / max: 24153.583
+urban_category,urban_category,urban_category: urban_category,[string variable]
+treatment_climate,treatment_climate,,0 / 1
+treatment_policy,treatment_policy,,0 / 1
+region,region,region: region,[string variable]
+car_dependency,car_dependency,"car_dependency: Car or motorbike is used for at least one activity (work, leisure, shopping).",TRUE / FALSE / NA
+owner,owner,owner: Owner or Landlord renting out property to: Are you a homeowner or a tenant?,TRUE / FALSE
+education_original,education_original,"education: Which category best describes your highest level of education, according to the following (international) classification?",College degree / High school / Lower secondary school / Master's degree or above / No schooling completed / Primary school / Vocational degree
+college,college,,No college / College Degree
+educ_categ,educ_categ,,Below high-school / College degree / High-school non-College
+high_gas_expenses,high_gas_expenses,"gas_expenses_above_median: T/F indicator that gas_expenses are above the median expenses of the respondent's income quartile, given by thresholds_expenses.",TRUE / FALSE / NA
+high_heating_expenses,high_heating_expenses,high_heating_expenses: T/F indicator gas_expenses_above_median,TRUE / FALSE / NA
+flights_agg,flights_agg,,0 / 0.333 / 0.667 / 1.167 / 2 / 3.667 / 6.667
+treatment,treatment,treatment: Treatment received: Climate impacts/Climate policy/Both/None,None / Climate impacts / Climate policy / Both
+female,female,,TRUE / FALSE / NA
+other,other,other: Gender is neither Male nor Female,TRUE / FALSE / NA
+children,children,"children: Live with at least one child below 14 (or has at least one child, for the US)",TRUE / FALSE
+age_control,age_control,age: How old are you?,18-24 / 25-34 / 35-49 / 50+ / Below 18
+polluting_sector,polluting_sector,"polluting_sector: T/F whether sector is polluting (i.e. part of Oil, gas or cal/Cement/Construction/Automobile/Iron and steel/Chemical/Plastics/Pulp and paper/Farming/Air transport)",TRUE / FALSE
+agglo_categ,agglo_categ,,Rural / Small agglo / Medium agglo / Large agglo
+econ_leaning,econ_leaning,,Left / Very left / Center / Right / Very right / PNR
+income_factor,income_factor,,Q1 / Q2 / Q3 / Q4
+index_fairness,index_fairness,"index_fairness: Z-score of (non-weighted) average of (first-stage) z-scores of variables: standard_fair, tax_transfers_fair, investments_fair. Each z-score is normalized with survey weights, control group (resp. sample) mean and sd. Imputes group mean to missing values. Group: treatment group (resp. whole sample) if question asked after treatment and it's a first-stage z-scores (resp. otherwise).",min: -3.864 / max: 3.216
+index_trust_govt,index_trust_govt,"index_trust_govt: Z-score of (non-weighted) average of (first-stage) z-scores of variables: can_trust_govt. Each z-score is normalized with survey weights, control group (resp. sample) mean and sd. Imputes group mean to missing values. Group: treatment group (resp. whole sample) if question asked after treatment and it's a first-stage z-scores (resp. otherwise).",-2.988 / -1.401 / 0 / 0.013 / 0.018 / 0.019 / 0.186 / 1.773 / 3.36
+index_willing_change,index_willing_change,"index_willing_change: Z-score of (non-weighted) average of (first-stage) z-scores of variables: willing_electric_car, willing_limit_driving, willing_limit_flying, willing_limit_beef, willing_limit_heating. Each z-score is normalized with survey weights, control group (resp. sample) mean and sd. Imputes group mean to missing values. Group: treatment group (resp. whole sample) if question asked after treatment and it's a first-stage z-scores (resp. otherwise).",min: -4.041 / max: 3.552
+valid,valid,valid: Respondents that has not been screened out due to speed or failure to the attention test.,TRUE / FALSE
+dropout,dropout,dropout: Respondent who did not complete the survey though was not excluded.,TRUE / FALSE
+finished_attentive,finished_attentive,finished_attentive: Respondent completed the survey and did not fail the attention test.,TRUE / FALSE / NA
+country,country,,[string variable]
+insulation_mandatory_support_no_priming,insulation_mandatory_suppor_59,insulation_mandatory_support_no_priming: Imagine that the Australian government makes it mandatory for all residential buildings to have insulation that meets a certain energy efficiency standard before 2040. The government would subsidize half of the insulation costs to help households with the transition. Do you support or oppose such policy?,Strongly oppose: -2 / Somewhat oppose: -1 / PNR: -0.1 / Indifferent: 0 / Somewhat support: 1 / Strongly support: 2
+index_net_zero_feasible,index_net_zero_feasible,"index_net_zero_feasible: Z-score of (non-weighted) average of (first-stage) z-scores of variables: net_zero_feasible. Each z-score is normalized with survey weights, control group (resp. sample) mean and sd. Imputes group mean to missing values. Group: treatment group (resp. whole sample) if question asked after treatment and it's a first-stage z-scores (resp. otherwise).",-3.389 / -1.747 / -0.134 / -0.12 / -0.104 / -0.095 / -0.087 / 1.538 / 3.18
+index_c_fairness,index_c_fairness,"index_fairness: Z-score of (non-weighted) average of (first-stage) z-scores of variables: standard_fair, tax_transfers_fair, investments_fair. Each z-score is normalized with survey weights, control group (resp. sample) mean and sd. Imputes group mean to missing values. Group: treatment group (resp. whole sample) if question asked after treatment and it's a first-stage z-scores (resp. otherwise).",min: -7.503 / max: 4.755
+index_c_trust_govt,index_c_trust_govt,"index_trust_govt: Z-score of (non-weighted) average of (first-stage) z-scores of variables: can_trust_govt. Each z-score is normalized with survey weights, control group (resp. sample) mean and sd. Imputes group mean to missing values. Group: treatment group (resp. whole sample) if question asked after treatment and it's a first-stage z-scores (resp. otherwise).",min: -7.395 / max: 5.652
+index_c_willing_change,index_c_willing_change,"index_willing_change: Z-score of (non-weighted) average of (first-stage) z-scores of variables: willing_electric_car, willing_limit_driving, willing_limit_flying, willing_limit_beef, willing_limit_heating. Each z-score is normalized with survey weights, control group (resp. sample) mean and sd. Imputes group mean to missing values. Group: treatment group (resp. whole sample) if question asked after treatment and it's a first-stage z-scores (resp. otherwise).",min: -8.132 / max: 4.614
+index_standard_policy,index_standard_policy,"index_standard_policy: Z-score of (non-weighted) average of (first-stage) z-scores of variables: standard_support, standard_public_transport_support. Each z-score is normalized with survey weights, control group (resp. sample) mean and sd. Imputes group mean to missing values. Group: treatment group (resp. whole sample) if question asked after treatment and it's a first-stage z-scores (resp. otherwise).",min: -4 / max: 2.474
+index_tax_transfers_policy,index_tax_transfers_policy,"index_tax_transfers_policy: Z-score of (non-weighted) average of (first-stage) z-scores of variables: tax_transfers_support. Each z-score is normalized with survey weights, control group (resp. sample) mean and sd. Imputes group mean to missing values. Group: treatment group (resp. whole sample) if question asked after treatment and it's a first-stage z-scores (resp. otherwise).",-3.754 / -2.205 / -0.656 / -0.184 / -0.112 / 0.121 / 0.222 / 0.893 / 2.443
+index_investments_policy,index_investments_policy,"index_investments_policy: Z-score of (non-weighted) average of (first-stage) z-scores of variables: investments_support. Each z-score is normalized with survey weights, control group (resp. sample) mean and sd. Imputes group mean to missing values. Group: treatment group (resp. whole sample) if question asked after treatment and it's a first-stage z-scores (resp. otherwise).",-4.633 / -2.95 / -1.267 / -0.104 / -0.014 / 0.025 / 0.12 / 0.416 / 2.098
+index_main_policies,index_main_policies,"index_main_policies: Z-score of (non-weighted) average of (first-stage) z-scores of variables: investments_support, tax_transfers_support, standard_support. Each z-score is normalized with survey weights, control group (resp. sample) mean and sd. Imputes group mean to missing values. Group: treatment group (resp. whole sample) if question asked after treatment and it's a first-stage z-scores (resp. otherwise).",min: -4.676 / max: 2.685
+index_main_policies_all,index_main_policies_all,"index_main_policies_all: Z-score of (non-weighted) average of (first-stage) z-scores of variables: investments_support, tax_transfers_support, standard_support, standard_public_transport_support. Each z-score is normalized with survey weights, control group (resp. sample) mean and sd. Imputes group mean to missing values. Group: treatment group (resp. whole sample) if question asked after treatment and it's a first-stage z-scores (resp. otherwise).",min: -4.696 / max: 2.713
+index_c_main_policies_all,index_c_main_policies_all,"index_main_policies_all: Z-score of (non-weighted) average of (first-stage) z-scores of variables: investments_support, tax_transfers_support, standard_support, standard_public_transport_support. Each z-score is normalized with survey weights, control group (resp. sample) mean and sd. Imputes group mean to missing values. Group: treatment group (resp. whole sample) if question asked after treatment and it's a first-stage z-scores (resp. otherwise).",min: -4.696 / max: 2.713
+index_fairness_standard,index_fairness_standard,"index_fairness_standard: Z-score of (non-weighted) average of (first-stage) z-scores of variables: standard_fair. Each z-score is normalized with survey weights, control group (resp. sample) mean and sd. Imputes group mean to missing values. Group: treatment group (resp. whole sample) if question asked after treatment and it's a first-stage z-scores (resp. otherwise).",-3.162 / -1.682 / -0.201 / -0.165 / -0.155 / -0.133 / -0.116 / 1.28 / 2.761
+index_fairness_tax_transfers,index_fairness_tax_transfers,"index_fairness_tax_transfers: Z-score of (non-weighted) average of (first-stage) z-scores of variables: tax_transfers_fair. Each z-score is normalized with survey weights, control group (resp. sample) mean and sd. Imputes group mean to missing values. Group: treatment group (resp. whole sample) if question asked after treatment and it's a first-stage z-scores (resp. otherwise).",-3.332 / -1.777 / -0.222 / -0.199 / -0.184 / -0.124 / -0.105 / 1.334 / 2.889
+index_fairness_investments,index_fairness_investments,"index_fairness_investments: Z-score of (non-weighted) average of (first-stage) z-scores of variables: investments_fair. Each z-score is normalized with survey weights, control group (resp. sample) mean and sd. Imputes group mean to missing values. Group: treatment group (resp. whole sample) if question asked after treatment and it's a first-stage z-scores (resp. otherwise).",-3.573 / -2 / -0.427 / -0.249 / -0.242 / -0.239 / -0.231 / 1.146 / 2.719
+index_c_knowledge_gases,index_c_knowledge_gases,"index_knowledge_gases: Z-score of (non-weighted) average of (first-stage) z-scores of variables: know_GHG_methane, know_GHG_CO2, know_GHG_H2, know_GHG_particulates. Each z-score is normalized with survey weights, control group (resp. sample) mean and sd. Imputes group mean to missing values. Group: treatment group (resp. whole sample) if question asked after treatment and it's a first-stage z-scores (resp. otherwise).",min: -7.913 / max: 3.872
+final,final,,0 / 1
+standard_public_transport_support_binary,standard_public_transport_s_75,,0 / 1
+tax_transfers_support_binary,tax_transfers_support_binary,,0 / 1
+investments_support_binary,investments_support_binary,,0 / 1
+standard_support_binary,standard_support_binary,,0 / 1
+policy_tax_fuels_binary,policy_tax_fuels_binary,,0 / 1
+policy_ban_city_centers_binary,policy_ban_city_centers_binary,,0 / 1
+policy_tax_flying_binary,policy_tax_flying_binary,,0 / 1
+policy_subsidies_binary,policy_subsidies_binary,,0 / 1
+insulation_mandatory_support_no_priming_binary,insulation_mandatory_suppor_83,,0 / 1
+net_zero_feasible_binary,net_zero_feasible_binary,,TRUE / FALSE
+index_c_knowledge_gases_binary,index_c_knowledge_gases_binary,,TRUE / FALSE
+index_trust_govt_binary,index_trust_govt_binary,,TRUE / FALSE
+index_c_fairness_binary,index_c_fairness_binary,,TRUE / FALSE
+index_c_willing_change_binary,index_c_willing_change_binary,,TRUE / FALSE
+treatment_both,treatment_both,,0 / 1

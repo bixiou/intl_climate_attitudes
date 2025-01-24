@@ -1,0 +1,53 @@
+
+* ------------------------------------------------------------------------------
+* STATA GRAPHING SCHEME FOR POLICY TEAM - OPPORTUNITY INSIGHTS
+* ------------------------------------------------------------------------------
+
+#include s2color
+
+* background color
+color 			background		white
+
+* graph size
+graphsize 		y 				5
+graphsize 		x 				8
+
+* legend options
+linestyle  		legend			none
+
+* order of colors
+color 			p1			   	"41 182 164"
+color 			p2			    "250 165 35"
+color 			p3				"0 58 79"
+color 			p4				"127 72 146"
+color 			p5				"164 206 78"
+color 			p6				"43 143 67"
+color 			p7				"0 115 162"
+color 			p8				"229 64 96"
+color 			p9				"255 212 0"
+color 			p10				"107 189 69"
+
+* title options
+gsize 			heading 		vhuge
+
+* axis options
+color 			axis_title 		black
+gsize 			axis_title 		3.7
+color  			axisline		black
+gsize 			axis_title_gap	tiny
+linewidth 		axisline		vthin
+
+* symbols
+symbolsize  	p 				medsmall
+linewidth		p				medthick
+
+* tick options
+color  			tick 			black
+color  			tick_label     	black
+gsize  			tick_label		3.7
+anglestyle  	vertical_tick 	0
+linewidth		tick			vthin
+
+color         	key_label 		black
+
+margin 			graph			"1 1 1 1"
